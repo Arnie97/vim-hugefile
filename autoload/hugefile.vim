@@ -36,8 +36,6 @@ function! s:restore_options()
   let &l:foldmethod = b:hugefile_saved_settings.foldmethod
   let &l:swapfile   = b:hugefile_saved_settings.swapfile
 
-  doautocmd FileType
-
   let b:hugefile_enabled = 0
 endfunction
 
